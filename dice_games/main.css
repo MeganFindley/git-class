@@ -1,0 +1,77 @@
+*:focus {outline: none;}
+
+html {
+    box-sizing: border-box;
+  }
+
+h2, h3, button, footer{
+    font-family: 'Lexend Tera', sans-serif;
+}
+body{
+    background: rgb(3,89,45);
+    background: linear-gradient(288deg, rgba(3,89,45,1) 0%, rgba(75,198,101,1) 37%, rgba(6,230,199,0.6641414141414141) 99%);
+    height: 100vh;
+}
+h2, h3, button{
+    flex: 100%;
+    text-align: center;
+    border-radius: 50%;
+}
+h2{
+    text-shadow: 1px 1px 3px white;
+}
+h3{
+    text-shadow: 1px 1px 3px white;
+    font-size: xx-large;
+}
+img{
+    height: 100px;
+    width: 100px;
+    border-radius: 20%;
+    border: 2px solid white
+}
+button{
+    background:none;
+    border:none;
+    margin:0;
+    padding:0;
+    cursor: pointer;
+    text-shadow: 1px 1px 3px white;
+    font-size: larger;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    margin-bottom: 5px;
+    width: 100%;
+    font-size: medium;
+    color: white;
+    text-shadow: 1px 1px 10px black;
+    text-align: center;
+}
+.wrapper{
+    position: fixed;
+    width: 70%;
+    height: 70%;
+    border: 3px solid white;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+a{ 
+    padding-top: 5px;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    font-family: 'Lexend Tera', sans-serif;
+    font-size: large;
+    color: white;
+    text-shadow: 1px 1px 10px black;
+}

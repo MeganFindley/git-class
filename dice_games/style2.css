@@ -1,0 +1,91 @@
+
+*:focus {outline: none;}
+html {
+    box-sizing: border-box;
+}
+
+h2, h3, button, footer, a{
+    font-family: 'Lexend Tera', sans-serif;
+}
+body{
+    background: rgb(3,89,45);
+    background: linear-gradient(288deg, rgba(3,89,45,1) 0%, rgba(75,198,101,1) 37%, rgba(6,230,199,0.6641414141414141) 99%);
+    height: 100vh;
+}
+img{
+    height: 100px;
+    width: 100px;
+    border-radius: 20%;
+    border: 2px solid white
+}
+a{ 
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    padding-top: 5px;
+    text-decoration: none;
+    font-family: 'Lexend Tera', sans-serif;
+    font-size: large;
+    color: white;
+    text-shadow: 1px 1px 3px black;
+}
+
+.wrapper{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 70%;
+    width: 70%;
+    border: 3px solid white;
+    border-radius: 30%;
+}
+button{
+    flex: 50%;
+    background:none;
+    color: black;
+    border:none;
+    margin:0;
+    padding:0;
+    cursor: pointer;
+    text-shadow: 1px 1px 3px white;
+    font-size: large;
+}
+#newGame{
+    flex: 100%
+}
+#roll{
+    text-align: right;
+    padding-right: 10px;
+}
+#hold{
+    text-align: left;
+    padding-left: 10px;
+}
+img{
+    border-radius: 20%;
+    border: 2px solid white;
+}
+h2, h3{
+    text-shadow: 1px 1px 3px white;
+    flex: 50%;
+    text-align: center;
+}
+h3{
+    font-size: xx-large;
+}
+#space{
+    flex: 100%;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    font-size: medium;
+    color: white;
+    text-shadow: 1px 1px 3px black;
+} 
